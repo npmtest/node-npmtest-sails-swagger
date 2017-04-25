@@ -1,6 +1,6 @@
 # npmtest-sails-swagger
 
-#### test coverage for  [sails-swagger (v0.5.1)](https://github.com/tjwebb/sails-swagger)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-swagger.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-swagger) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-swagger.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-swagger)
+#### basic test coverage for  [sails-swagger (v0.5.1)](https://github.com/tjwebb/sails-swagger)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-swagger.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-swagger) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-swagger.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-swagger)
 
 #### swagger.io integration for sails.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sails-swagger/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sails-swagger/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sails-swagger/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sails-swagger/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sails-swagger/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sails-swagger/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sails-swagger/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sails-swagger/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sails-swagger/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sails-swagger/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sails-swagger/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sails-swagger/build/coverage.html/index.html)
 
@@ -98,7 +98,8 @@
         "prepublish": "gulp",
         "test": "gulp && mocha --reporter spec --compilers js:babel/register"
     },
-    "version": "0.5.1"
+    "version": "0.5.1",
+    "bin": {}
 }
 ```
 
